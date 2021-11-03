@@ -1,15 +1,37 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp());
+  runApp(MaterialApp(
+    home: Scaffold(
+      backgroundColor: Colors.grey,
+      appBar: AppBar (
+        centerTitle: true,
+        backgroundColor: Colors.grey[300],
+        title: Text(
+            'I am poor',
+            style: TextStyle(
+              color: Colors.black
+            )
+        ),
+      ),
+      body: Center(
+        child: Image(
+          image: AssetImage(
+            'images/coal.jpeg'
+          ),
+        ),
+      ),
+    ),
+    debugShowCheckedModeBanner: false,
+  ));
 }
 
-class MaterialApp extends StatelessWidget {
-  const MaterialApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-
+// '''
+//  home: Scaffold(
+//        backgroundColor: Colors.grey,
+//         appBar: AppBar(
+//           title: Text('I Am Poor'),
+//         )
+//       );
+//      )
+// '''
