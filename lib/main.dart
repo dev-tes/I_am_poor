@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.white,
       appBar: AppBar (
         centerTitle: true,
-        backgroundColor: Colors.grey[300],
+        backgroundColor: Colors.grey[500],
         title: Text(
             'I am poor',
             style: TextStyle(
