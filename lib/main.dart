@@ -25,13 +25,3 @@ void main() {
     debugShowCheckedModeBanner: false,
   ));
 }
-
-// '''
-//  home: Scaffold(
-//        backgroundColor: Colors.grey,
-//         appBar: AppBar(
-//           title: Text('I Am Poor'),
-//         )
-//       );
-//      )
-// '''
